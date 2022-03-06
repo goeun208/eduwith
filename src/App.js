@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle
 function App() {
 
   return (
-    <Main/>
+    <Volunteer/>
     /*<Router>
       <Routes>
         <Route path="/" element={<Main/>}>
