@@ -3,7 +3,7 @@ import styled from "styled-components";
 import styles from "./MentoApply.module.css";
 import pin from "../images/pin.jpg";
 import { ImCross } from "react-icons/im";
-import {BsBookmarkStar} from "react-icons/bs";
+import {BsBookmarkStar, BsBookmarkStarFill} from "react-icons/bs";
 
 const Background = styled.div`
   position: fixed;
@@ -40,9 +40,14 @@ const Box = styled.div`
 function MentoApply({togglePopup}) {
 
   const [value, setValue] = useState("");
+  const [bmk, setBmk] = useState(false);
 
   const onChange = (e) => {
     setValue(e.target.value);
+  }
+
+  const onClickBMK = () => {
+    setBmk(current => !current);
   }
 
   const onSubmit = (e) => {
@@ -63,7 +68,7 @@ function MentoApply({togglePopup}) {
             <img className={styles.pic} src={pin} alt="mentopic" />
             <div>
               <div className={styles.bin}>
-                <BsBookmarkStar size="30" className={styles.book} />
+               { bmk ? <BsBookmarkStarFill size="30" className={styles.book} onClick={onClickBMK} /> : <BsBookmarkStar size="30" className={styles.book} onClick={onClickBMK} /> }
                 <div className={styles.title}>멘토링 제목</div>
               </div>
               <div className={styles.content}>

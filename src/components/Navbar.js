@@ -36,8 +36,8 @@ function Navbar() {
       <ul className={styles.subLinks}>
         <li><NavLink to="/mentoring" activeStyle={activeStyle} className={styles.link}> Mentoring</NavLink></li>
         <li><NavLink to="/volunteer" activeStyle={activeStyle} className={styles.link}> Volunteer</NavLink></li>
-        <li><NavLink to="/volunteer" activeStyle={activeStyle} className={styles.link}>Electronic Library</NavLink></li>
-        <li><NavLink to="/volunteer" activeStyle={activeStyle} className={styles.link}>User Guide</NavLink></li>
+        <li><NavLink to="/library" activeStyle={activeStyle} className={styles.link}>Electronic Library</NavLink></li>
+        <li><NavLink to="/guide" activeStyle={activeStyle} className={styles.link}>User Guide</NavLink></li>
       </ul>
     </nav>
   </div>

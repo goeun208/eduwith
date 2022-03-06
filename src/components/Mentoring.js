@@ -17,9 +17,11 @@ function Mentoring() {
   return (
     <div>
       <Navbar />
+      <div className={styles.back}>
       <div className={styles.Title}>
         온라인 멘토 찾기
       </div>
+
 
       <div className={styles.search}>
         <div className={styles.cn1}>
@@ -67,11 +69,13 @@ function Mentoring() {
         <div>
          <form method="get" action="#" className={styles.subject}>
             <h2>멘토링 기간</h2>
-            <label><input type="date" name="date" defaultValue="start" /></label>
+            <label className={styles.date}><input type="date" name="date" defaultValue="start" /></label>
             <span>~</span>
-            <label><input type="date" name="date" defaultValue="end" /></label>
+            <label  className={styles.date}><input type="date" name="date" defaultValue="end" /></label>
           </form>
         </div>
+
+        <div className={styles.scBtn}>검색</div>
 
       </div>
 
@@ -91,6 +95,7 @@ function Mentoring() {
         {showPopup && (
               <MentoApply togglePopup={togglePopup} />
             )}
+      </div>
       </div>
     </div>
 

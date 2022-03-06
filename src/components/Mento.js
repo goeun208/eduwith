@@ -21,12 +21,14 @@ function Mento() {
       </div>
 
       <div className={styles.middle}>
+      <div className={styles.detailBtn}>view detail {">"}</div>
       {cards.map((item) => (
         <div className={styles.card} key={item}>
           <img className={styles.pic1} src={pic1} alt="프로필" />
           <div>{item}</div>
         </div>
       ))}
+      
       </div>
     </div>
   );
