@@ -1,3 +1,5 @@
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './components/Home';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
 import Main from "./routes/Main";
@@ -12,7 +14,6 @@ const GlobalStyle = createGlobalStyle
         background: #e9ecef;
       }`;
 
-
 function App() {
 
   return (
@@ -25,8 +26,6 @@ function App() {
         </Route>
       </Routes>
     </Router>*/
-  );
-}
 
 export default App;
 {/* <Main>
