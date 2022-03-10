@@ -58,7 +58,7 @@
 }
 
 .listbox{
-    margin: 25px auto;
+    margin: 30px auto;
     width: 1400px;
     height: 190px;
     
@@ -107,10 +107,11 @@
 }
 .vbottom{
     margin-left: 45%;
-    margin-top: 80px;
+    margin-top: 70px;
+    margin-bottom: 10px;
     font-family: Noto Sans;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
     
 }
 /*

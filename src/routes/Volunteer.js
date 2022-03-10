@@ -30,10 +30,9 @@ function Volunteer() {
                         </div>
                     ))}
                 </div>
-                
             </div>
-
-            <div className={styles.vbottom}><MdArrowBackIos/> 1 2 3 <MdArrowForwardIos/></div>
+            
+            <div className={styles.vbottom}><MdArrowBackIos size={25}/> 1 2 3 <MdArrowForwardIos size={25}/></div>
         </div>
         
     );

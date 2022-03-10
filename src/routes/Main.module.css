@@ -2,25 +2,21 @@
     width: 100%;
     height: 100%;
 }
-.vbox{
+.vblock{
     width: 1400px;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
+    padding: 55px 0;
 }
-
 .vtitle{
-    margin-left: 98px;
-    margin-top: 56px;
-    
     font-family: Noto Sans;
     font-weight: 600;
     font-size: 28px;
 }
 .vbtn{
     width: 202px;
-    height: 49px;
-    margin-left: 98px;
-    margin-top: 394px;
+    height: 50px;
+    margin-top: 310px;
 
     background-color: white;
     border: 3px solid #4673EA;
@@ -29,73 +25,95 @@
     font-family: Noto Sans;
     font-weight: 600;
     font-size: 22px;
-    line-height: 30px;
     color: #4673EA;
 }
 .vexbox{
-    width: 921px;
-    height: 401px;
-    margin-left: 500px;
+    position: absolute;
+    top: 55px;
+    height: 400px;
+    margin-left: 450px;
     display: flex;
+    background-color: #F1F5FA;
     
 }
-.vex > button {
-    border: none;
-    background-color: none;
-    color: #4673EA;
-
-    font-size: 30px;
+.vex{
+    width: 310px;
+   /* border: 1px solid #222222;*/
 }
 .vex > img{
-    
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.vex > h3{
+    margin-top: 45px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.vex > p{
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 250px;
+    font-size: 20px;
+}
+.vex > button {
+    margin-top: 25px;
+    margin-left: 23px;
+    border: none;
+    background-color: transparent;
+    color: #4673EA;
+
+    font-size: 25px;
 }
 
-.lbox{
-    
-width: 1438px;
-height: 412px;
-left: -1px;
-top: 1820px;
-margin: 100px;
+.lblock{
+    height: 500px;
+    width: 1700px;
+    margin-top: 55px;
 
-background: #F1F5FA;
-border-radius: 0px 200px 200px 0px;
+    background: #F1F5FA;
+    border-radius: 0px 250px 250px 0px;
 }
-
+.lcont{
+    
+    width: 1400px;
+    margin-left: 251.5px;
+    padding-top: 50px;
+    /*padding: 50px 0;*/
+}
 .ltitle{
-
-width: 162px;
-height: 38px;
-left: 98px;
-top: 56px;
-
-font-family: Noto Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 38px;
-
-color: #222222;
+    font-family: Noto Sans;
+    font-weight: 600;
+    font-size: 30px;
 }
 .lbtn{
+    width: 202px;
+    height: 50px;
+    margin-top: 280px;
 
-width: 202px;
-height: 49px;
-left: 97px;
-top: 304px;
-
-background-color: white;
-border: 3px solid #4673EA;
-box-sizing: border-box;
-border-radius: 30px;
-
-font-family: Noto Sans;
+    background-color: white;
+    border: 3px solid #4673EA;
+    border-radius: 30px;
+    
+    font-family: Noto Sans;
     font-weight: 600;
     font-size: 22px;
-    line-height: 30px;
     color: #4673EA;
 }
-
+.lbox{
+    position: absolute;
+    top: 700px;
+    margin-left: 335px;
+    display: flex;
+}
+.icons{
+    width: 150px;
+    text-align: center;
+    margin-left: 100px;
+}
+.icons > h3{
+    font-size: 28px;
+    margin-top: 50px;
+}
 /* .vex1{
     position: absolute;
 width: 308px;

@@ -5,6 +5,8 @@ import Login from "./components/Login";
 import Volunteer from './routes/Volunteer';
 import { createGlobalStyle } from 'styled-components';
 import { useState } from 'react';
+import Notice from './routes/Notice';
+import Mypage from "./routes/Mypage";
 
 
 const GlobalStyle = createGlobalStyle
@@ -16,15 +18,16 @@ const GlobalStyle = createGlobalStyle
 function App() {
 
   return (
-    <Main/>
-    /*<Router>
+    <Router>
       <Routes>
         <Route path="/" element={<Main/>}>
         </Route>
         <Route path="/Volunteer" element={<Volunteer/>}>
         </Route>
+        <Route path="/Notice" element={<Notice/>}></Route>
+        <Route path="/Mypage" element={<Mypage/>}></Route>
       </Routes>
-    </Router>*/
+    </Router>
   );
 }
 

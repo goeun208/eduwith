@@ -1,0 +1,41 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.nblock{
+    background-color: #F1F5FA;
+    height: 100%;
+}
+.ncon{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.ncon > h3{
+    font-size: 26px;
+}
+.ncon > h3 > hr{
+    border: 1px solid #5B6163;
+}
+.nbox{
+    width: 1400px;
+    height: 80px;
+    border: 1px solid #5B6163;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+}
+.ntext{
+    font-size: 20px;
+    margin: 25px 800px 0 30px;
+
+}
+.nicon{
+    margin-top: 10px;
+}
+.nbottom{
+    margin-left: 45%;
+    margin-top: 75px;
+    font-size: 26px;
+}
